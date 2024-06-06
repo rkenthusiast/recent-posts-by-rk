@@ -1,0 +1,19 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore development files
+/node_modules/
+npm-debug.log
+/.vscode/
+
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore environment-specific files
+.env
+*.log
+
+# Ignore dependency management files
+package-lock.json

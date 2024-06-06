@@ -1,0 +1,14 @@
+{
+  "name": "recent-posts-by-rk",
+  "version": "1.0.0",
+  "description": "A WordPress plugin to display recent posts with customizable options.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ram Enthusiast <rkenthusiast@gmail.com>",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "multiple-select": "^1.7.0"
+  }
+}

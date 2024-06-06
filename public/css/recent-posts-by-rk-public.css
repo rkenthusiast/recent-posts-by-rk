@@ -1,0 +1,98 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .widget_recent_posts_widget {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    min-width: 300px;
+    padding: 30px;
+ }
+
+ .widget_recent_posts_widget .widget-title {
+    color: #fff;
+ }
+
+ .widget_recent_posts_widget .widget-title::after {
+    display: block;
+    width: 32px;
+    padding-top: -3px;
+    border-bottom: 4px solid #c07768;
+    content: '';
+ }
+
+ .widget_recent_posts_widget ul {
+
+ }
+
+ .widget_recent_posts_widget ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    margin-bottom: 10px;
+ }
+
+ .widget_recent_posts_widget .recent-posts-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .widget_recent_posts_widget ul li img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    max-width: unset;
+ }
+
+ .widget_recent_posts_widget .recent-posts-image {
+    position: relative;
+ }
+
+ .widget_recent_posts_widget .postnum {
+    position: absolute;
+    bottom: -5px;
+    z-index: 2;
+    right: -13px;
+    color: #c07768;
+    font-size: 31px;
+    line-height: 34px;
+    font-weight: 700;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+ }
+
+ .widget_recent_posts_widget .tags a { 
+    color: #717582;
+    text-decoration: none;
+    position: relative;
+ }
+ .widget_recent_posts_widget .tags > a::after { 
+    position: absolute;
+    content: "";
+    display: block;
+    width: 22px;
+    bottom: -6px;
+    border-bottom: 4px solid;
+    border-color: #c07768;
+    -webkit-transition: .25s;
+    -moz-transition: .25s;
+    -ms-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s;
+ }
+
+ .widget_recent_posts_widget h4 a { 
+    text-decoration: none;
+    color: #fff;
+ }
+
+ .widget_recent_posts_widget .recent-posts-meta { 
+    font-size: 10px;
+    color: #717582;
+ }
