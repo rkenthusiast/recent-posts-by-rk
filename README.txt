@@ -1,5 +1,5 @@
 === Recent Posts by RK ===
-Contributors: yourwordpressuserid
+Contributors: rkenthusiast@gmail.com
 Donate link: https://rkenthusiast.com/
 Tags: recent posts, widget, posts, blog, custom posts
 Requires at least: 3.0.1
